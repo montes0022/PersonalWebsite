@@ -1,0 +1,25 @@
+  body {
+    background-color: #D4ECDD;
+    font-family: "Gill Sans", sans-serif;
+  }
+
+  hr{
+    border-style: ridge;
+    border-color:#345B63;
+    border-width: 5px;
+    background-color: orange;
+  }
+  h1{
+    color: #112031;
+    font-family: fantasy;
+  }
+  h3{
+    color: #112031;
+    font-family: fantasy;
+  }
+
+.bodytable{
+  border-collapse: collapse;
+  text-align: center;
+  font-family: "Gill Sans", sans-serif;
+}
