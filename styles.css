@@ -1,14 +1,8 @@
   body {
-    background-color: #D4ECDD;
+    background-color: #F8F8F8;
     font-family: "Gill Sans", sans-serif;
   }
 
-  hr{
-    border-style: ridge;
-    border-color:#345B63;
-    border-width: 5px;
-    background-color: orange;
-  }
   h1{
     color: #112031;
     font-family: fantasy;
@@ -17,9 +11,107 @@
     color: #112031;
     font-family: fantasy;
   }
+  p{
+    color: #45969B;
+  }
 
+  /*containers*/
+  .container-fluid{
+    padding: 7% 15%;
+  }
 .bodytable{
   border-collapse: collapse;
   text-align: center;
   font-family: "Gill Sans", sans-serif;
+}
+/*broad images*/
+
+.image{
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  border-radius: 8px;
+
+}
+
+.fa-brands{
+  width:4%;
+}
+
+.navIcon{
+  background-color: white;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+.navi{
+  /*position: fixed*/
+}
+
+
+/*Skills AND Experineces*/
+#edu {
+
+}
+#carouselControls{
+  text-align: center;
+
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.skill-image {
+  width: 8%;
+  margin: 20px;
+  text-align: center;
+}
+
+/*hobbies*/
+#hobbies{
+
+}
+
+.skill-row1 {
+
+  margin: 50px auto 0px auto; /*tutorial wants 100 top and bottom but i have smaller #s*
+  /*margins will make this div centered on the webpage: top & bottom are 100 LR are auto*/
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row2 {
+
+  margin: auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row3 {
+
+  margin: auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row4 {
+
+  margin: auto;
+  text-align: left;
+  line-height: 2;
+}
+
+/*contacts*/
+#contacts{
+  text-align: center;
+  padding: 50px 0 20px;
 }
