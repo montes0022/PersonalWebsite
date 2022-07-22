@@ -34,13 +34,11 @@
 
 }
 
-.fa-brands{
-  width:4%;
+.icon{
+  width:6%;
+  margin: 5px;
 }
 
-.navIcon{
-  background-color: white;
-}
 
 .container-fluid{
   padding: 7% 15%;
